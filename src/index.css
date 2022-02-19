@@ -1,0 +1,75 @@
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.videogame-icon {
+  width: 50px;
+  margin: auto 10px;
+}
+
+.game-region {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.game-img {
+  width: 163px;
+  height: 100%;
+}
+
+.game-allInfo {
+  margin:auto 20px;
+
+}
+
+.game-companyInfo {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+
+.location-icon {
+  width: 10px;
+  height: 100%;
+}
+
+.game-company {
+  margin: auto 5px;
+}
+
+.game-web {
+  color: gray;
+  margin: auto 10px;
+
+}
+
+.game-nameInfo {
+  line-height: 0.7rem;
+}
+
+.game-name {
+  font-size: 3.5rem;
+}
+
+.game-timeRange {
+  font-size: 1.2rem;
+}
+
+.game-description {
+  font-size: 0.5rem;
+  max-width: 500px;
+}
